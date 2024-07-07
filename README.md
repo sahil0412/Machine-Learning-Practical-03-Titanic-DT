@@ -50,7 +50,6 @@ embarked:    Port of Embarkation<br>
 ### 3. EDA
 #### A.Data Cleaning
 There is no need of three columns such as passengerId, Name and Ticket Number, so those columns can be dropped<br>
-We can add SibSp and Parch column as well since both represent no of persons aboarded more and drop those 2 columns as well<br>
 Now We have 8 columns and null values are present, so null values should be handled<br>
 Null values for numerical columns can be handled via median stargegy and for categorical columns mode can be applied<br>
 Dependent Variable is survived

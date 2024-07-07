@@ -33,8 +33,11 @@ def predict_datapoint():
         pred=predict_pipeline.predict(final_new_data)
 
         results=round(pred[0],2)
-
-        return render_template('results.html',final_result=results)
+        if results == 0:
+            survive = "NOT"
+        else:
+            survive = ""
+        return render_template('results.html',final_result=survive)
 
 
 
