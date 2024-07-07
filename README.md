@@ -85,13 +85,12 @@ a. GridSearchCV<br>
 b. RandomizedSearchCV<br>
 
 Main parameters used by Decision Tree Algorithm are :-
-a. criterion -> For classification: 'gini' (default) or 'entropy'.
-b. max_depth -> The maximum depth of the tree. If None, nodes are expanded until all leaves are pure or contain fewer than min_samples_split samples.
-c. min_samples_split -> The minimum number of samples required to split an internal node. Default is 2.
-d. min_samples_leaf -> The minimum number of samples required to be at a leaf node. Default is 1.
-e. max_leaf_nodes -> Grow a tree with max_leaf_nodes in best-first fashion. Best nodes are defined as relative reduction in impurity. If None (default), then unlimited number of leaf nodes.
-f. max_features -> The number of features to consider when looking for the best split. <br>
-`None` (default): Consider all features.
+a. criterion -> For classification: 'gini' (default) or 'entropy'.<br>
+b. max_depth -> The maximum depth of the tree. If None, nodes are expanded until all leaves are pure or contain fewer than min_samples_split samples.<br>
+c. min_samples_split -> The minimum number of samples required to split an internal node. Default is 2.<br>
+d. min_samples_leaf -> The minimum number of samples required to be at a leaf node. Default is 1.<br>
+e. max_leaf_nodes -> Grow a tree with max_leaf_nodes in best-first fashion. Best nodes are defined as relative reduction in impurity. If None (default), then unlimited number of leaf nodes.<br>
+f. max_features -> The number of features to consider when looking for the best split. `None` (default): Consider all features.
 
 ### 6. Model Deployment
 After creating model ,we integrate that model with beautiful UI. for the UI part we used HTML and Flask. We have added extra validation check also so that user doesn't enter Incorrect data. Then the model is deployed on render
